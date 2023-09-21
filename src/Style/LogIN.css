@@ -1,0 +1,76 @@
+.LoginWrapper{
+    width: 100%;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.Login{
+    width: 550px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+.Login h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.Login label{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+.Login input{
+    margin-top: 5px;
+    height: 40px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.divButton{
+    margin: 40px 0 ;
+    width: 95%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.Login button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    border: none;
+    color: orange;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.Login button:hover{
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 10px;
+}
+.Login p{
+    margin: auto;
+}
+.loginLink{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width: 610px) {
+    .Login{
+        width: 90%;
+    }
+}

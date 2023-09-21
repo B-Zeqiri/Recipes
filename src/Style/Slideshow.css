@@ -1,0 +1,29 @@
+/* Slideshow.css */
+/* Slideshow.css */
+
+.slideshow {
+    width: 99%;
+    height: 330px;/* Adjust the height as needed */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(50, 70, 30, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 250, 245, 0.5);
+    margin: auto;
+    transition: background-image 1s ease-in-out;
+  }
+  
+  
+  .slide {
+    max-width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slide.active {
+    opacity: 1;
+  }
+  

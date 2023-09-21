@@ -1,0 +1,38 @@
+.updateTitleArea{
+    height: 40px;
+    width: 90%;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.updateBodyArea{
+    width: 90%;
+    min-height: 170px;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.submitUpdateButton{
+    width: 50%;
+    height: 40px;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: orangered;
+    cursor: pointer;
+}
+.submitDeleteButton{
+    width: 50%;
+    height: 40px;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: orangered;
+    cursor: pointer;
+}

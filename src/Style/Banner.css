@@ -1,0 +1,36 @@
+.bannerWrapper{
+    width: 99%;
+    height: fit-content;
+   /* background-color: rgba(96, 96, 96, 0.2);
+    backdrop-filter: blur(6px);*/
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+    border-radius: 10px ;
+}
+.slideshowWrapper{
+    border-bottom: 3px solid rgb(232, 232, 232);
+    margin: 0;
+    height: 350px;
+    width: 98%;
+    margin: 25px auto 25px auto;
+
+}
+.loadingDIv{
+    position: absolute;
+    width: 98%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 980px) {
+    .bannerWrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .bannerWrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
